@@ -63,9 +63,6 @@ nav a:hover{
     padding: 35px;
     margin: 200px 0;
 }
-footer{
-    background-color: #E6B89C;
-}
 .home-title{
     color:#423e3b; 
     font-family: 'Hind Siliguri', 'Heebo', 'sans-serif';
@@ -87,6 +84,7 @@ h4{
     padding-bottom: 15px;
 }
 footer{
+    background-color: #E6B89C;
     color:#423e3b;
     padding: 25px 50px;
     margin-top: 200px;

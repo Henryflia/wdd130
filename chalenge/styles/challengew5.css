@@ -1,0 +1,37 @@
+body{
+    max-width: 3400px;
+    margin: 100px 100px 100px 100px;
+    padding: 0;
+}
+#wed{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+main{
+    background-color: gray;
+    border: circle;
+    
+    
+}
+#background{
+    background-color: gray;
+}
+.desk{
+    float: left;
+    margin: 200px 300px;
+    border-radius: 500px;
+    border: 40px solid black
+    
+}
+.graphic{
+    float: right;
+    margin: 200px 300px;
+    border-radius: 500px;
+    border: 40px solid black
+}
+.person{
+    margin: 200px 75px;
+    border-radius: 500px;
+    border: 40px solid 
+}
