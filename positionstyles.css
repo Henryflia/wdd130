@@ -98,7 +98,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  height: 0px;
+  height: 400px;
 }
 .red4 {
   width: 100%; 
