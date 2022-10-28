@@ -1,0 +1,36 @@
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.tumama{
+    width: 100%; 
+    height: 100%; 
+    grid-column: 1/2;
+    z-index: -1;
+    position: relative
+}
+.gray{
+    width: 100%; 
+    height: 100%; 
+    background-color: rgb(173, 173, 173); 
+    grid-column: 2/3;
+    position: relative
+}
+#tart{
+   font-size: 170px;
+   grid-column: 1/3;
+   color:rgb(0, 0, 0);
+   position: absolute;
+   margin-left: 100px;
+}
+body{
+    font: Helvetica;
+}
+#cherry{
+    font-size: 100px;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 750px;
+    color: brown;
+}
