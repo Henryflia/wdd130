@@ -248,3 +248,98 @@ nav{
         margin-top: 25px;
     }
 }
+
+/* Second Page */
+.secondpage-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.rafting1-card{  
+    margin: 200px 0; 
+    margin: 50px;
+    width: 60%;
+    grid-column: 1/2;
+    grid-row: 1/2
+}
+.rafting2-card{
+    margin: 200px 0;
+    margin: 50px;
+    width: 60%;
+    grid-column: 2/3;
+    grid-row: 2/3
+
+} 
+.rafting3-card{
+    margin: 200px 0;
+    margin: 50px ;
+    width: 80%;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.raf-img, .raf2-img, .raf3-img{
+    width: 100%;
+    border: 10px solid #E6B89C;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.raf-img:hover, .raf2-img:hover, .raf3-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+.frok{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border: 10px solid #423e3b;
+    border-radius: 50px;
+    font-size: 26px;
+}
+.desolation{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border: 10px solid #423e3b;
+    border-radius: 50px;
+    font-size: 30px;
+}
+.canyon{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    border: 10px solid #423e3b;
+    border-radius: 50px;
+    font-size: 30px;
+}
+.frok, .desolation, .canyon{
+    font-family: 'Hind Siliguri', 'Heebo', 'sans-serif';
+    
+    margin: 50px
+}
+/* #background2{
+    background-color: white;
+    border-radius: 50px;
+    border: 20px solid #423e3b;
+    margin: 200px 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 725px;d
+} */
+.raf-img{
+    width: 145%;
+    height: 80%;
+}
+.raf2-img{
+    width: 145%;
+    height: 80%;
+
+}
+.raf3-img{
+    width: 110%;
+    height: 80%;
+
+}
+.title-raf{
+    margin: 0%;
+    color: black;
+    font-family: 'Hind Siliguri', 'Heebo', 'sans-serif';
+    font-size: 33px;
+    margin-left: 200px;
+}
