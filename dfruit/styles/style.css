@@ -147,7 +147,7 @@ footer p a:hover{
 }    
 footer .social img{
     padding-top: 15px;
-    width: 90px;
+    width: 80px;
 }    
 .fruits-img{
     width: 95%;
@@ -200,6 +200,7 @@ footer .social img{
     grid-column: 7/12;
     grid-row: 2/3;
     padding: 30px;
+    margin-right: 10px;
     box-shadow: 5px 5px 10px #6f7364;
     font-family: "Fira Sans", "sans-serif";
     font-size: 30px;
@@ -215,6 +216,7 @@ footer .social img{
 .vegetables2{
     width: 130%;
     height: 75%;
+    margin-left: 10px;
     border-radius: 20%;
     border: 10px solid #8ae1fc;
 }
@@ -222,6 +224,7 @@ footer .social img{
     grid-column: 7/12;
     grid-row: 3/4;
     padding: 35px;
+    margin-right: 10px;
     box-shadow: 5px 5px 10px #6f7364;
     font-family: "Fira Sans", "sans-serif";
     font-size: 28px;
@@ -238,11 +241,13 @@ footer .social img{
     width: 130%;
     border-radius: 20%;
     border: 10px solid #8ae1fc;
+    margin-left: 10px;
 }
 .fv_2p{
     grid-column: 7/12; 
     grid-row: 4/5;
     padding: 35px;
+    margin-right: 10px;
     box-shadow: 5px 5px 10px #6f7364;
     font-family: "Fira Sans", "sans-serif";
     font-size: 30px;
