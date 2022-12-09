@@ -1,0 +1,98 @@
+/******************************************************************************
+START grid layout extra credit
+******************************************************************************/
+
+* {
+    box-sizing: border-box;
+  }
+  .grid1 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    padding-top: 2em;
+    bottom: 2em;
+    padding: 1rem;
+  }
+  
+  .grid1 h1 {
+    
+  }
+  
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+
+    padding: 1rem;
+  }
+  .grid2 h2 {
+    
+  }
+  .grid3 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    padding: 1rem;
+  }
+  
+  .grid3 h3 {
+    
+  }
+  
+  .grid4 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    padding: 1rem;
+  }
+  
+  .grid4 h2 {
+    
+  }
+  
+  section {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: dinamic;
+    padding: 1rem;
+  }
+  
+  section h2 {
+    
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    
+  }
+  
+  
+  legend {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  fieldset > div {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 0 1em;
+    align-items: center;
+  }
+  
+  label {
+    align-items: right;
+  }
+  
+  input {
+    align-items: left;
+    width: 100%;
+  }
+  
+  button {
+    
+  }
+  
+  section > div {
+    
+  }
