@@ -39,13 +39,9 @@
                             <li>
                                 <label for="msg">Message:</label>
                                 <textarea id="msg" name="user_message"></textarea>
-                            </li>
-                        </ul>
-                        <ul>
-                            <li class="button">
+                    
                                 <button type="submit">Send your message</button>
-                            </li>
-                        </ul>
+                     
                     </form>
                 </div>
                 <div class="delivery_d">
@@ -55,25 +51,19 @@
                 <div class="delivery_form">
                     <div class="feedback2"></div>
                     <form  action="/my-handling-form-page" method="post">
-                        <ul>
-                            <li>
+                            
                                 <label for="name2">Name:</label>
-                                <input type="text" id="name2" name="user_name">
-                            </li>
-                            <li>
+                                <input type="text" id="name2" name="user_name2">
+                            
+                        
                                 <label for="mail2">E-mail:</label>
-                                <input type="email" id="mail2" name="user_email">
-                            </li>
-                            <li>
+                                <input type="email" id="mail2" name="user_email2">
+                            
+                            
                                 <label for="msg2">Message:</label>
-                                <textarea id="msg2" name="user_message"></textarea>
-                            </li>
-                        </ul>
-                        <ul>
-                            <li class="button">
+                                <textarea id="msg2" name="user_message2"></textarea>
+                            
                                 <button type="submit">Send your message</button>
-                            </li>
-                        </ul>
                     </form>
                 </div>
         </main>
@@ -95,22 +85,44 @@
         </footer>
     </div>
     <script>
+        // This is for the Customer_Form
         // get the feedback div element so we can do something with it.
         const feedbackElement = document.getElementById('feedback');
         // get the form so we can read what was entered in it.
         const formElement = document.forms[0];
         // add a 'listener' to wait for a submission of our form. When that happens run the code below.
-        formElement.addEventListener('submit', function(e) {
+        formElement.addEventListener('submit', function (e) {
             // stop the form from doing the default action.
             e.preventDefault();
             // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+            feedbackElement.innerHTML = 'Hello ' + formElement.user_name.value + '! Thank you for your message. We will get back with you as soon as possible!';
             // make the feedback element visible.
             feedbackElement.style.display = "block";
             // add a class to move everything down so our message doesn't cover it.
             document.body.classList.toggle('moveDown');
             document.body.classList.toggle('moveDown2');
         });
+
+
+
+
+        // This is for the Delivery Form
+        // get the feedback div element so we can do something with it.
+            const feedbackElement = document.getElementById('feedback2');
+            // get the form so we can read what was entered in it.
+            const formElement = document.forms[1];
+            // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+            formElement.addEventListener('submit', function (e) {
+                // stop the form from doing the default action.
+                e.preventDefault();
+                // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+                feedbackElement.innerHTML = 'Hello ' + formElement.user_name2.value + '! Thank you for your message. We will get back with you as soon as possible!';
+                // make the feedback element visible.
+                feedbackElement.style.display = "block";
+                // add a class to move everything down so our message doesn't cover it.
+                document.body.classList.toggle('moveDown');
+                document.body.classList.toggle('moveDown2');
+            });
     </script>
 </body>
 </html>
